@@ -189,3 +189,115 @@ p {
   transform: scale(1.2);
   transition: 0.3s;
 }
+
+
+
+/* =========================
+   TABLET (max-width: 1024px)
+   ========================= */
+
+@media (max-width: 1024px){
+
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  .content{
+    width: 100%;
+  }
+
+  .navbar{
+    justify-content: center;
+  }
+
+}
+
+
+/* =========================
+   SMALL TABLET (max-width: 768px)
+   ========================= */
+
+@media (max-width: 768px){
+
+  body{
+    padding: 20px;
+  }
+
+  .avatar{
+    width: 100px;
+  }
+
+  .sidebar{
+    padding: 25px;
+  }
+
+  .content{
+    padding: 25px;
+  }
+
+  .cards{
+    grid-template-columns: 1fr;
+  }
+
+  .navbar{
+    gap: 15px;
+    font-size: 14px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE (max-width: 480px)
+   ========================= */
+
+@media (max-width: 480px){
+
+  body{
+    padding: 15px;
+  }
+
+  .wrapper{
+    gap: 15px;
+  }
+
+  .sidebar{
+    padding: 20px;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  .navbar{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .contact-item{
+    gap: 10px;
+  }
+
+  .icon-box{
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+
+  .cards{
+    grid-template-columns: 1fr;
+  }
+
+}
