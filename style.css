@@ -8,22 +8,26 @@
 body {
   background: #0f1115;
   color: #e6e6e6;
-  padding: 40px;
+  margin: 0;
+  height: 100vh;
 }
 
 /* LAYOUT */
 .wrapper {
   display: flex;
   gap: 25px;
+  height: 100vh;
 }
 
 /* SIDEBAR */
 .sidebar {
-  width: 280px;
+  width: 320px;
+  height: 100%;
   background: #17191f;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 0 0 1px #24272f;
+
 }
 
 .avatar {
@@ -96,6 +100,7 @@ body {
 /* CONTENT */
 .content {
   flex: 1;
+  height: 100%;
   background: #17191f;
   border-radius: 20px;
   padding: 35px;
@@ -138,6 +143,11 @@ h1 {
 p {
   color: #b8b8b8;
   line-height: 1.6;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  color: #b8b8b8;
   margin-bottom: 10px;
 }
 
